@@ -1,0 +1,72 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/*BOOTSTRAP*/
+
+
+
+/*                      CUSTOM DESIGNS                   */
+ #wrapper {
+   width: 700px;
+   margin: 0 auto;
+   background-color: rgba(175, 207, 207, 0.88);
+ }
+
+ body {
+   background-color: rgba(129, 163, 161, 0.9);
+   margin: 0;
+ }
+
+ .links {
+   text-decoration: none;
+   background-color: rgba(58, 159, 147, 0.87);
+   border-radius: 10%;
+   padding: 10px;
+ }
+
+ img {
+   width: 550px;
+   border: 4px solid black;
+ }
+
+
+ .section {
+     width:100%;
+     float:center;
+     padding:10px;
+ }
+
+ h1 {
+   font-family: monospace;
+   background-color: rgb(226, 219, 182);
+   padding: 10px;
+   font-size: 30px;
+ }
+
+ p {
+   font-family: monospace;
+ }
+
+ a {
+   text-decoration: none;
+   color: white;
+   font-family: monospace;
+   font-size: 20px;
+ }
+
+ a:hover {
+   color: rgba(23, 246, 206, 0.85);
+ }
